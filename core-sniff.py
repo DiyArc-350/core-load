@@ -10,7 +10,7 @@ HOLD_TIME = 6  # How long to keep logging active after the last target hit
 
 # Standard REST ports for 5G Core SBI Network Functions (AMF, SMF, UDM, etc.)
 # Filtering for these ensures we focus on endpoint API traffic
-TARGET_PORTS = [8000, 7002, 5002, 2152] 
+TARGET_PORTS = [8000, 8001, 8002, 8080] 
 
 class TargetedEndpointMonitor:
     def __init__(self, interface="any"):
